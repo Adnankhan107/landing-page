@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.nav-container{
+    background-color: #1F2937;
+    height: 65px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-content h2{
+    padding: 20px;
+    padding-left: 122px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-links{
+    padding: 20px;
+    padding-right: 122px;
+}
+
+.nav-links a{
+    padding: 8px 12px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
