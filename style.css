@@ -78,3 +78,116 @@
     padding: 7px 36px;
     background-color: #3882F6;
 }
+
+/* 2nd hero section */
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 330px;
+    width: auto;
+}
+
+.hero2-container h1{
+    padding: 25px;
+    padding-left: 430px;
+}
+
+.item1 p{
+    padding: 15px;
+    padding-left: 55px;
+}
+
+.item2 p{
+    padding: 15px;
+    padding-left: 55px;
+}
+
+.item3 p{
+    padding: 15px;
+    padding-left: 55px;
+}
+
+.item4 p{
+    padding: 15px;
+    padding-left: 55px;
+}
+
+/* Quote section */
+.quote-container{
+    height: 450px;
+    width: auto;
+    background-color: #E5E7EB;
+}
+
+.quote-container p{
+    padding-top: 120px;
+    padding-left: 250px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container h4{
+    padding-left: 55%;
+    font-size: 30px;
+}
+
+
+/* CTA section */
+
+.cta-container {
+    height: 265px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    width: 1000px;
+    height: 115px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 90px;
+}
+
+.cta-text h5 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cta-text p {
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.foot-btn {
+    color: white;
+    font-weight: 600;
+    padding: 7px 30px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+
+/*  footer section */
+
+.main-footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer p {
+    color: #E5E7EB;
+    font-size: 14px;
+}
